@@ -7,7 +7,7 @@ class enlacesPag{
          $enlacesModel == "juego4" || 
          $enlacesModel == "juego5")
          {
-             $module="views/interfaces/".$enlacesModel.".php";
+             $module="views/interfaces/".$enlacesModel."/".$enlacesModel.".html";
          }else if($enlacesModel=="principal")
          {
             $module="views/principal.php";

@@ -21,12 +21,10 @@
 }
 
 .logo{
-    width: 10px;
-    margin-left: 10px;
+    width: 150px;
+    margin-left: 75px;
     cursor: pointer;
-    z-index: 0;
-
-
+    z-index: 1;
 }
 .banner3d{
     position: absolute;
@@ -34,8 +32,9 @@
     clear: both;
     width: 100%;
     height: 140px;
-    z-index: 10;
     left: no-repeat;
+    z-index: 0;
+
 }
 
 .navbar ul li{
@@ -48,6 +47,7 @@
     text-decoration: none;
     color: #fff;
     text-transform: uppercase;
+    margin-left: auto;
 }
 .navbar ul li::after{
     content:'';
@@ -70,6 +70,18 @@
     text-align: center;
     color: #fff;
 
+}
+.juegos{
+    width: 100%;
+    position: absolute;
+    top: 10%;
+    color: #fff;
+    text-align: center;
+    bot: 10px;
+}
+.juegos h1{
+    font-size: 25px;
+    margin-top: 80px;
 }
 .content hl{
     font-size: 150px;
@@ -114,3 +126,170 @@ button:hover span{
 button:hover{
     border: none;
 }
+
+
+  
+  #titulo {
+    color: white;
+    margin-left: 10px;
+    margin-top: 10px;
+    margin-bottom: 20px;
+    align-content: center;
+  }
+  
+  .esconder {
+    display: none !important;
+  }
+  
+  #bannerRotarTelefono {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    background-color: coral;
+    color: white;
+    padding: 10px;
+    margin-bottom: 5px;
+  }
+  
+  #botonCerrarBanner {
+    border-style: solid;
+    border-width: 1px;
+    border-color: white;
+    border-radius: 5px;
+    background-color: coral;
+    color: white;
+    padding: 6px;
+  }
+  
+  #puntos {
+    color: greenyellow;
+    margin-left: 52px;
+    margin-bottom: 0px;
+    text-align: center;
+
+  }
+  
+  #contenedorJuego {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 90%;
+  }
+  
+  #contenedorNintendo {
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+  }
+  
+  #juegoOverlay {
+    position: relative;
+  }
+  
+  #juegoCanvas {
+    position: absolute;
+    left: 16.9%;
+    top: 5.19%;
+    width: 73.8%;
+    background-color: #00fffb;
+  }
+  
+  #nintendo {
+    width: 100%;
+  }
+  
+  @media screen and (min-width: 768px) {
+    #contenedorNintendo {
+      width: 65%;
+    }
+  
+    body {
+      font-size: 20px;
+    }
+  }
+  
+  @media screen and (min-width: 1024px) {
+    #contenedorNintendo {
+      width: 50%;
+    }
+  
+    body {
+      font-size: 22px;
+    }
+  }
+  
+  @media screen and (min-width: 1280px) {
+    #contenedorNintendo {
+      width: 25%;
+    }
+  
+    body {
+      font-size: 24px;
+    }
+  }
+  
+  .shake-horizontal {
+    -webkit-animation: shake-horizontal 0.8s
+      cubic-bezier(0.455, 0.03, 0.515, 0.955) both;
+    animation: shake-horizontal 0.8s cubic-bezier(0.455, 0.03, 0.515, 0.955) both;
+  }
+  
+
+  @-webkit-keyframes shake-horizontal {
+    0%,
+    100% {
+      -webkit-transform: translateX(0);
+      transform: translateX(0);
+    }
+    10%,
+    30%,
+    50%,
+    70% {
+      -webkit-transform: translateX(-10px);
+      transform: translateX(-10px);
+    }
+    20%,
+    40%,
+    60% {
+      -webkit-transform: translateX(10px);
+      transform: translateX(10px);
+    }
+    80% {
+      -webkit-transform: translateX(8px);
+      transform: translateX(8px);
+    }
+    90% {
+      -webkit-transform: translateX(-8px);
+      transform: translateX(-8px);
+    }
+  }
+  @keyframes shake-horizontal {
+    0%,
+    100% {
+      -webkit-transform: translateX(0);
+      transform: translateX(0);
+    }
+    10%,
+    30%,
+    50%,
+    70% {
+      -webkit-transform: translateX(-10px);
+      transform: translateX(-10px);
+    }
+    20%,
+    40%,
+    60% {
+      -webkit-transform: translateX(10px);
+      transform: translateX(10px);
+    }
+    80% {
+      -webkit-transform: translateX(8px);
+      transform: translateX(8px);
+    }
+    90% {
+      -webkit-transform: translateX(-8px);
+      transform: translateX(-8px);
+    }
+  }
+  

@@ -10,8 +10,8 @@
             <img src="images/logo.png" width="100px" height="100px">
             </a>
 
-            <div class="banner3d">
-                <iframe src='https://my.spline.design/macbookprocopy-fa8d6b1bfa5634447de3da0c41d721b5/' frameborder='0' width='100%' height='100%' class="banner3d"></iframe>
+           <div class="banner3d">
+                <iframe src='https://my.spline.design/macbookprocopy-fa8d6b1bfa5634447de3da0c41d721b5/' frameborder='0' width='100%' height='100%' ></iframe>
 
             </div>
             
@@ -26,7 +26,7 @@
         </div>
     </div>
 </head>
-<body>
+<body></body>
     <section>
         <?php
 
