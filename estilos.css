@@ -49,6 +49,8 @@
     text-transform: uppercase;
     margin-left: auto;
 }
+
+/*Colores deanimacion banner */
 .navbar ul li::after{
     content:'';
     height: 3px;
