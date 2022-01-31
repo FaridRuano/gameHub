@@ -6,7 +6,7 @@ let DIRECCIONES = {
     IZQUIERDA: 3,
     DERECHA: 4,
   };
-  
+  /*Cambio de velocidad de juego*/
   let FPS = 1000 / 15;
   
   let JUEGO_CANVAS = document.getElementById("juegoCanvas");
