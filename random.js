@@ -7,3 +7,4 @@ function randomPage(){
      var randomNum = Math.floor(Math.random()*3);
     window.location.href = site[randomNum];     
 }
+//funcion random Math.random()
