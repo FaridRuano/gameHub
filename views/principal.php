@@ -12,7 +12,7 @@
         <div class="button1">
             <button type="button" onclick="randomPage()"><span></span>Juego Aleartorio</button>
         </div>
-}<script src="random.js"></script>
+<script src="random.js"></script>
     </div>
 </body>
 </html>
