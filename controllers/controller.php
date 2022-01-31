@@ -7,7 +7,7 @@ class MvcController{
         if(isset($_GET['action'])){
             $enlacesController=$_GET['action'];
         }else {
-            $enlacesController = "inicio.php";
+            $enlacesController = "principal.php";
         }
         $respuesta = enlacesPag::enlacesPagModel($enlacesController);
         include $respuesta;
