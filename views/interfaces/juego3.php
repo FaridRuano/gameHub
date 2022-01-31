@@ -1,6 +1,7 @@
 <!DOCTYPE html>
 <html>
 <head>
+<title>GameHub</title>
     
 </head>
 <body>
