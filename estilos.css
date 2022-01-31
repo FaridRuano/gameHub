@@ -223,7 +223,7 @@ button:hover{
   
   @media screen and (min-width: 768px) {
     #contenedorNintendo {
-      width: 65%;
+      width: 45%;
     }
   
     body {
@@ -233,7 +233,7 @@ button:hover{
   
   @media screen and (min-width: 1024px) {
     #contenedorNintendo {
-      width: 50%;
+      width: 30%;
     }
   
     body {
