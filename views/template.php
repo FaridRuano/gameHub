@@ -18,8 +18,8 @@
 
             <ul>
                 <li><a href="index.php?action=juego1">Juego 1</a></li>
-                <li><a href="index.php?action=juego2">Juego 2</a></li>
-                <li><a href="index.php?action=juego3">Juego 3</a></li>
+                <li><a href="index.php?action=juego2">Snake</a></li>
+                <li><a href="index.php?action=juego3">Tetris</a></li>
                 <li><a href="index.php?action=juego4">Juego 4</a></li>
                 <li><a href="index.php?action=juego5">Juego 5</a></li>
             </ul>
