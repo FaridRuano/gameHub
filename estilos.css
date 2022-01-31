@@ -220,6 +220,8 @@ button:hover{
   #nintendo {
     width: 100%;
   }
+  /*Re-size pages
+  */
   
   @media screen and (min-width: 768px) {
     #contenedorNintendo {
